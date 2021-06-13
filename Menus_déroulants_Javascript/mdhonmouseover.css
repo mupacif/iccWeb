@@ -1,0 +1,63 @@
+body {
+margin: 0;
+padding: 0;
+background: white;
+font: 80% verdana, arial, sans-serif;
+}
+dl, dt, dd, ul, li {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+#menu {
+position: absolute;
+top: 0;
+left: 0;
+z-index:100;/* le menu se superpose au corps du site si nécessaire*/
+width: 100%;
+}
+#menu dl {
+float: left; /* pour que les différents menus viennent se disposer les uns a côtés des autres*/
+width: 12em;
+margin: 0 1px;
+}
+#menu dt {
+cursor: pointer;
+text-align: center;
+font-weight: bold;
+background: #ccc;
+border: 1px solid gray;
+}
+#menu dd {
+border: 1px solid gray;
+}
+#menu li {
+text-align: center;
+background: #fff;
+}
+#menu li a, #menu dt a {
+color: #000;
+text-decoration: none;
+display: block; /* apparition des ss-menus si fonctionnalité Javascript du navigateur est désactivée */
+height: 100%;
+border: 0 none;
+}
+#menu li a:hover, #menu dt a:hover {
+background: #eee;
+}
+
+#site {
+position: absolute;
+z-index: 1; /*le corps du site s'affiche en dessous du menu */
+top : 70px;
+left : 10px;
+color: #000;
+background-color: #ddd;
+padding: 5px;
+border: 1px solid gray; 
+}
+
+a {text-decoration: none;
+color: black;
+color: #222;
+}

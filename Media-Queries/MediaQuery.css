@@ -1,0 +1,166 @@
+body{
+	width:1000px;
+	margin-top:20px;
+	background-color:lightgrey;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+header{
+	border:1px solid black;
+	background-color: blue;
+	color:white;
+	text-align:center;
+	width:800px;
+	margin-left:5%;
+}
+dl, dt, dd, ul, li {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+nav {
+position: absolute;
+top: 110px;
+left:20%;
+z-index:100;/* le menu se superpose au corps du site si nécessaire*/
+/*width: 100%;*/
+}
+nav dl {
+float: left; /* pour que les différents menus viennent se disposer les uns a côtés des autres*/
+width: 10em;
+margin: 0 1px;
+}
+nav dt {
+cursor: pointer;
+text-align: center;
+font-weight: bold;
+background: darkred	;
+color:wheat;
+border: 2px solid black;
+}
+nav dd {
+border: 1px solid black;
+}
+nav li {
+text-align: center;
+background: darkred;
+}
+nav li a, nav dt a {
+color: wheat;
+text-decoration: none;
+display: block; /* apparition des ss-menus si fonctionnalité Javascript du navigateur est désactivée */
+height: 100%;
+border: 0 none;
+}
+nav li a:hover {
+background: darkblue;
+}
+nav dt a:hover {
+background-color: DarkSlateGray;
+}
+a {text-decoration: none;
+color: wheat;
+color: darkblue;
+}
+.corps1
+{
+    float:left;
+	text-align:justify;
+	border: 1px solid black;
+	position:relative;
+	/*top:60px;*/
+	left:10px;
+	width:400px;
+	/*z-index:10;*/
+	background-color:Lemonchiffon;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top:60px;
+}
+.corps2{
+
+	text-align:justify;
+	border: 1px solid black;
+/*	position:relative;
+	top:60px;
+	left:0px;*/
+	width:400px;
+	/*z-index:10;*/
+	background-color:lightblue;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top:60px;
+	margin-left: 450px;
+	}
+@media (max-width: 1024px)
+{
+body{
+	width:auto;
+}
+header
+{
+	width:auto;
+}
+nav
+{
+/*position:static;*/
+left:5px;
+top:100px;
+}
+nav dl
+{
+width :7em;
+}
+.corps1
+{
+/*float:none;
+position:static;*/
+width:280px;
+margin-left:15px;
+margin-top:140px;
+}
+.corps2
+{
+width:280px;
+margin-left:320px;
+margin-top:140px;
+}
+}
+
+@media (max-width: 640px)
+{
+body{
+	width:auto;
+}
+header
+{
+	width:auto;
+}
+nav
+{
+/*position:static;*/
+left:5px;
+top:100px;
+}
+nav dl
+{
+float:none;
+}
+.corps1
+{
+float:none;
+position:static;
+width:auto;
+margin-left:5px;
+margin-right:5px;
+margin-top:140px;
+}
+.corps2
+{
+width:auto;
+margin-left:5px;
+margin-right:5px;
+margin-top:10px;
+}
+}

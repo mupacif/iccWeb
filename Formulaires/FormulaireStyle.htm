@@ -1,0 +1,136 @@
+<!DOCTYPE html >
+<html >
+<head >
+ 	 <meta charset ="utf-8" />
+     <title>Guest Book</title>
+
+<style>
+   h1,h3{
+     color: green;}
+  .turlututu{color:blue;
+             background-color:lightgreen;
+			 margin-right:150px;}
+  .gras{font-weight: bolder;}	 
+  .un {background-color:red;
+       color:blue;
+       margin-right:150px;}
+  .deux {background-color:orange;
+       color:blue;
+       margin-right:150px;}
+  .trois {background-color:lightblue;
+       color:red;
+       margin-right:150px;}
+  option{background-color:lime;
+         color:red;}
+  textarea{background-color:yellow
+           color:green;
+           margin-left:100px;}
+  input:focus,textarea:focus{background-color:yellow;}
+  body{
+       background-image:url("Enveloppe.gif"); }  
+</style>
+</head>
+<body>
+
+<h1>Mon album de visiteurs</h1>
+
+
+<h1>Faites moi savoir ce que vous pensez de mon site</h1>
+<form method="post" action="traitement.php">
+<p>
+<pre class="un">
+
+ <label for="truc">
+  Quel est votre Nom ? </label><input type="text" name="Nom" size="25" maxlength="10" id="truc"/>						
+<label for="bazar"> 
+        Votre Prénom :</label> <input type="text" name="Prénom" size="25" id="bazar"/>							
+<label for="mail">
+Votre adresse e-mail : </label><input type="email" name="adresse e-mail" size="25" id="mail"/>
+<label for="chouette"> 
+  Votre Mot de passe :</label> <input type="password" name="Prénom" size="25" id="chouette"/>
+  
+</pre>
+</p>
+<p class="un">
+<span="gras">Sélectionnez ce qui s'applique:</span>
+<br />
+
+<input type="checkbox" name="aime" checked="checked" id="un"/>
+<label for="un">
+J'aime vraiment beaucoup votre site.</label><br />
+
+
+<input type="checkbox" name="meilleur" id="deux"/>
+<label for="deux">
+Un des meilleurs sites sur lequel j'aie jamais surfé !.</label><br />
+
+
+<input type="checkbox" name="ressembler" id="trois" />
+<label for="trois">
+Je voudrais que mes pages personnelles ressemblent aux vôtres.</label><br />
+
+
+<input type="checkbox" name="amour" id="quatre">
+<label for="quatre">
+Je crois que je vous aime !.</label><br />
+
+
+<input type="checkbox" name="idiot" id="cinq"/>
+<label for="cinq">
+Je trouve ce site complètement idiot et inintéressant !
+</label>
+</p> 
+
+<p class="deux">
+<span="gras">Choisissez ce que vous avez le mieux apprécié en parcourant mes pages:</span>
+<br />
+<input type="radio" name="préféré" value="moi"  checked="checked" />
+Cette fantastique photo de vous !<br />
+<input type="radio" name="préféré" value="chat"/>
+Tous ces merveilleux poèmes écrits à propos de votre chat.<br />
+<input type="radio" name="préféré" value="enfance" />
+Tous ces formidables souvenirs de votre enfance.<br />
+<input type="radio" name="préféré" value="trésor" />
+La liste de tous vos trésors.
+</p>
+
+<p class="trois">
+<span="gras">Imaginez mon site comme un livre, une vidéo, ou un album.
+<br />Combien d'exemplaires pourrais-je espérer en vendre ?</span>
+<br />
+<select size="3" name="potentiel">
+	<option   value="quatre"selected="selected">Des millions d'exemplaires !</option>
+	<option value="un">Des centaines de milliers d'exemplaires</option>
+	<option value ="deux">Des milliers d'exemplaires</option>
+	<option value = "trois">Pas un seul exemplaire</option>
+</select>
+</p>
+
+<p class="turlututu">
+<span="gras">De quelle manière pourrais-je améliorer mon site ?</span> 
+<select name="suggestion">
+	<option value="un" selected="selected">Il ne pourrait être meilleur !</option>
+	<option value="deux">Encore plus de détails sur votre chat</option>
+	<option value="trois">Plus de révélations sur votre vie privée</option>
+	<option value="quatre">Rajoutez encore plus de photos de vous !</option>
+</select></p>
+
+<p class="trois">
+<span="gras">Si vous avez encore d'autres commentaires ou que vous désirez me faire 
+une proposition 
+<br />de mariage ou de rencontre remplissez le cadre ci-dessous :</span>
+<br />
+<textarea name="commentaires" rows="4" cols="55">
+Je voudrais vous remercier d'avoir changé ma vie à ce point.
+</textarea>
+<br />
+<br />
+<input type="image" src="signup.gif" />
+<!-- <input type="submit" value="Cliquez ici pour envoyer" /> -->
+<input type="reset" value="Effacer et recommencer" />
+</p>
+
+</form>
+</body>
+</html>
+

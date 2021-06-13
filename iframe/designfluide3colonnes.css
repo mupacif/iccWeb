@@ -1,0 +1,48 @@
+body
+{
+background-color : silver;
+}
+
+
+
+#titre
+{
+height : 70px;
+width : 70%;
+margin: auto;
+background-color : olive;
+margin-bottom : 5px;
+}
+
+
+
+
+#col1
+{
+float: left;
+background-color : orange;
+/*width: 150px;*/
+width: 20%;
+height : 1000px;
+}
+
+#col2
+{
+float: right;
+background-color : pink;
+/*width: 200px;*/
+width: 50%;
+height : 1000px;
+}
+
+#colcentre
+{
+
+background-color : yellow;
+height : 1000px;
+/*margin-left:155px;*/
+margin-left:22%; 
+/*margin-right:205px;*/
+margin-right:52%; 
+
+}

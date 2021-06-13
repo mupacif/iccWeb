@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+  <head>
+     <title>Formulaire</title>
+     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />   
+	 <style type="text/css">
+	   .gras{font-weight:bold; }
+	 </style>
+ 
+  </head>
+<body>
+
+<h1 style="text-align:center;color:blue;">Mon album de visiteurs</h1>
+
+<h3>Faites moi savoir ce que vous pensez de mon site </h3>
+<form method="post" action="mailto:verbistdom@hotmail.com">
+<pre>
+  Quel est votre Nom : <input type="text" 
+	                    name="nom" size="25" />
+        Votre Prénom : <input type="text"
+                            name="prenom" size="25" maxlength="10" />
+Votre adresse e-mail : <input type="password"
+                      name="adresse e-mail" size="25" />
+</pre>
+<p>
+<span class="gras">Sélectionnez ce qui s'applique:</span>
+<br />
+<input type="checkbox" name="aime" checked="checked" />
+J'aime vraiment beaucoup votre site.<br />
+<input type="checkbox" name="meilleur" />
+Un des meilleurs sites sur lequel j'aie jamais surfé !.<br />
+<input type="checkbox" name="ressembler" />
+Je voudrais que mes pages personnelles ressemblent aux vôtres.<br />
+<input type="checkbox" name="amour" />
+Je crois que je vous aime !.<br />
+<input type="checkbox" name="idiot" />
+Je trouve ce site complètement idiot et inintéressant !
+</p> 
+
+<p>
+<span class="gras">Choisissez ce que vous avez le mieux apprécié en parcourant mes pages:</span>
+<br />
+<input type="radio" name="prefere" value="moi" checked="checked" />
+Cette fantastique photo de vous !<br />
+<input type="radio" name="prefere" value="chat" />
+Tous ces merveilleux poèmes écrits à propos de votre chat.<br />
+<input type="radio" name="prefere" value="enfance" />
+Tous ces formidables souvenirs de votre enfance.<br />
+<input type="radio" name="prefere" value="trésor" />
+La liste de tous vos trésors.
+</p>
+
+<p class="gras">
+Imaginez mon site comme un livre, une vidéo, ou un album.
+<br />Combien d'exemplaires pourrais-je espérer en vendre ?
+</p>
+<p>
+<select size="3" name="potentiel">
+  <option selected="selected" value="opt1">Des millions d'exemplaires !</option>
+  <option value="opt2">Des centaines de milliers d'exemplaires</option>
+  <option value="opt3">Des milliers d'exemplaires</option>
+  <option value="opt4">Pas un seul exemplaire</option>
+</select>
+</p>
+
+<p class="gras">
+De quelle maniére pourrais-je améliorer mon site ?
+</p>
+<p>
+<select name="suggestion">
+  <option selected="selected" value="opt1">Il ne pourrait être meilleur !</option>
+  <option value="opt2">Encore plus de détails sur votre chat</option>
+  <option value="opt3">Plus de révélations sur votre vie privée</option>
+  <option value="opt4">Rajoutez encore plus de photos de vous !</option>
+</select>
+</p>
+<p class="gras">
+Si vous avez encore d'autres commentaires ou que vous désirez me faire 
+une proposition 
+<br />de mariage ou de rencontre remplissez le cadre ci-dessous :
+</p>
+<p>
+<textarea name="commentaires" rows="4" cols="55">
+Je voudrais vous remercier d'avoir changé ma vie à ce point.
+</textarea>
+</p>
+<p>
+<input type="image" src="signup.gif" />
+<!-- <input type="submit" value="Cliquez ici pour envoyer"> -->
+<input type="reset" value="Effacer et recommencer" />
+</p>
+</form>
+</body>
+</html>
+

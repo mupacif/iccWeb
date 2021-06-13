@@ -1,0 +1,75 @@
+
+
+.un td,.un th
+{
+	border:  solid red 2px;	
+}
+
+.un td
+{
+	text-align : center;
+}
+
+.mac
+{
+	width : 200px;
+	height : 150px;
+}
+.loc
+{
+	width : 50px;
+	background-color : yellow;
+}
+
+.un
+{
+	border-collapse : collapse;}
+	
+.un caption
+{
+	font-weight : bolder;
+	caption-side : right;
+	width : 300px;
+}
+
+.deux th,.deux td
+{
+width: 150px;
+border: dotted 2px blue;
+}
+.deux
+{
+	border : solid 2px orange;
+}
+
+.trois caption
+{
+	font: 30px bolder;
+	color: green;
+}
+.trois
+{
+		border-collapse : collapse;
+}
+.trois td,.trois th
+{
+ 	border: solid 2px red;	
+}
+
+.trois td
+{
+	text-align : center;
+	width : 200px;
+	height : 150px;
+}
+.quatre td,.quatre th
+{
+	border:  solid green 2px;
+    width:250px;
+    height: 150px;	
+}
+.quatre td
+{
+	   text-align : left;
+	   vertical-align :bottom;
+}

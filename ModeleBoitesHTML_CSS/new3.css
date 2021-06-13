@@ -1,0 +1,66 @@
+body{
+
+}
+.hun 
+{
+	border: dotted 5px red;
+	margin-left: 50px;
+	margin-right : 100px;
+	margin-top : 20px;
+	/*margin-bottom : 60px;*/
+	padding-left : 100px;
+	padding-top:20px
+	
+}
+
+.hdeux
+{
+   text-align:right;
+   color: red;
+   background-color: yellow;
+   	margin-right : 200px;
+	padding-right: 50px;
+	margin-top : 160px;
+   }
+
+.pun
+{
+	margin-top : 50px;
+	border: solid 2px olive;
+	margin-bottom : 50px;
+}
+
+.pdeux
+{
+	/*margin-top : 50px;*/
+	border: solid 2px yellow;
+}
+
+.fusion
+{
+	border: solid 2px green;
+	padding-left : 20px;
+	padding-top :30px;
+}
+
+.ptrois
+{
+	/*margin-top: 30px;*/
+	border: solid 2px red;
+	margin-left:10px;
+	
+}
+
+.pquatre
+{
+	border: solid 2px blue;
+	margin-left : 10px;
+}
+.cinq{
+	   border: solid 2px yellow;
+}
+.six{
+	   border: solid 2px yellow;
+}
+
+
