@@ -1,0 +1,53 @@
+.carrebleu{
+			width:200px;
+			height:200px;
+			float:left;/*float:right;*/
+			background-color: blue;
+			margin-right:10px; /*margin-left:10px;*/
+}
+
+.carrerouge{
+			width:200px;
+			height:200px;
+			/*float:left;*/float:right;
+			background-color: red;
+			margin-right:10px; /*margin-left:10px;*/
+}
+.orchid{
+	margin-right:10px;
+	/*float:left;*/
+	float:right;
+	/*border: double blue 3px;*/
+}
+.un{ /*border:solid red 3px*/}
+.deux{/* border:solid red 3px*/}
+.trois{ /*border:solid red 3px}*/}
+	 
+.six{
+			clear:both;
+}
+
+.huit,.neuf,.dix{
+	width :300px;
+	border:solid red 2px;
+	float:left;
+	margin-left : 10px;
+	padding:5px;}
+	
+.onze{
+			clear:both;
+			border:solid blue 2px;
+}
+
+.menuvertical,.menuhorizontal{
+		list-style-type:none;
+}
+a{
+		text-decoration : none;
+}
+
+.menuhorizontal li{
+		float:left;
+		margin-left:5px;
+		background:#ccc;
+}
